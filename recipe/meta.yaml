@@ -1,5 +1,5 @@
 {% set name = "perf" %}
-{% set version = "1.5.1" %}
+{% set version = "1.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 5aae76e58bd3edd0c50adcc7c16926ebb9ed8c0e5058b435a30d58c6bb0394a8
+  sha256: f7fd3a9a174a17ca36de63563f394eaafc7d4ce11fd3ae7c28d4c38cf6403bef
 
 build:
   number: 1000

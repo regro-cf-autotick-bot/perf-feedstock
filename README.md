@@ -1,7 +1,7 @@
 About perf
 ==========
 
-Home: http://github.com/vstinner/perf/
+Home: https://github.com/vstinner/pyperf
 
 Package license: MIT
 
